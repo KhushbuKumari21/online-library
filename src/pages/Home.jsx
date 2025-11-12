@@ -3,8 +3,10 @@ import books from "../data/booksData";
 import BookCard from "../components/BookCard";
 import "./Home.css";
 
+// Array of book categories displayed on the home page
 const categories = ["Fiction", "Non-Fiction", "Sci-Fi"];
 
+// Home component rendering welcome message, categories, and popular books
 const Home = () => (
   <div className="container mt-4">
     <h2>Welcome to the Online Library</h2>
