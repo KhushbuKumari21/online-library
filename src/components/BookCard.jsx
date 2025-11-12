@@ -1,0 +1,23 @@
+import { Link } from "react-router-dom";
+import "./BookCard.css";
+
+
+const BookCard = ({ book }) => {
+  return (
+    <div className="col-md-4 mb-3">
+      <div className="card h-100">
+        <div className="card-body">
+          <h5 className="card-title">{book.title}</h5>
+          <p className="card-text"><strong>Author:</strong> {book.author}</p>
+          <p className="card-text"><strong>Category:</strong> {book.category}</p>
+          <p className="card-text"><strong>Rating:</strong> ⭐ {book.rating}</p>
+          <Link to={`/book/${book.id}`} className="btn btn-primary">
+            View Details
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default BookCard;

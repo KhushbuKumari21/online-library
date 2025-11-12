@@ -1,0 +1,20 @@
+.add-book-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.add-book-form input {
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.add-book-form button {
+  width: 100%;
+  font-weight: 600;
+}

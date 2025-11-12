@@ -1,0 +1,29 @@
+/* Global body styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f6fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container spacing */
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Headings */
+h2, h3 {
+  color: #222;
+}
+
+/* Buttons common styling */
+.btn {
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
