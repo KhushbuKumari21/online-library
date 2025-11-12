@@ -1,3 +1,6 @@
+// Sample book data for the Online Library System
+// Each book object contains: id, title, author, category, description, and rating
+
 export default [
   {
     id: 1,
