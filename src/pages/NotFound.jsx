@@ -2,15 +2,18 @@ import { Link, useLocation } from "react-router-dom";
 import "./NotFound.css";
 
 const NotFound = () => {
-  // Get the current URL path that does not match any route
+  // Get the unmatched route path from React Router
   const location = useLocation();
 
   return (
-    <div className="container text-center mt-5">
+    <div className="notfound-container">
+      {/* Page title */}
       <h2>404 - Page Not Found</h2>
-      {/* Display the invalid URL path */}
+
+      {/* Display the invalid URL that caused the 404 */}
       <p>No match for <strong>{location.pathname}</strong></p>
-      {/* Button to navigate back to home page */}
+
+      {/* Link button to navigate back to the Home page */}
       <Link to="/" className="btn btn-primary mt-3">Go Home</Link>
     </div>
   );
