@@ -1,29 +1,55 @@
-/* Global body styles */
+/* App.css */
+
+/* Global body styling */
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #f5f6fa;
-  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
   margin: 0;
   padding: 0;
 }
 
 /* Container spacing */
 .container {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* Headings */
 h2, h3 {
-  color: #222;
+  color: #343a40;
 }
 
-/* Buttons common styling */
+/* Buttons */
 .btn {
-  border-radius: 5px;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
-  transform: translateY(-2px);
+  transform: scale(1.05);
+}
+
+/* Cards */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card h5 {
+  font-weight: 600;
+}
+
+/* Input fields */
+input.form-control {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+/* 404 Page */
+.text-center h2 {
+  color: #dc3545;
+}
+
+/* Links */
+a {
+  text-decoration: none;
 }
